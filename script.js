@@ -1,3 +1,6 @@
+const verseText = document.getElementById("insert");
+const authorText = document.getElementById("author")
+const generateQuoteBtn = document.getElementById("change-quote");
 
 const quotes = [
   {
@@ -39,22 +42,19 @@ const quotes = [
 ];
 
 function getRandomQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  return quotes[randomIndex];
+  return quotes[Math.floor(Math.random() * quotes.length)];
 }
 
 function displayQuote() {
-  const quoteContainer = document.getElementById("insert");
-  const randomQuote = getRandomQuote();
-  document.getElementById("insert").innerHTML = randomQuote.quote;
-  document.getElementById("author").innerHTML = "-" + randomQuote.author;
+  verseText.innerHTML = getRandomQuote().quote;
+  authorText.innerHTML = "-" + getRandomQuote().author;
 }
 
 window.onload = function() {
   displayQuote();
 };
 
-window.onload=function(){
+window.onload = function() {
   const generateQuoteBtn = document.getElementById("change-quote");
   generateQuoteBtn.addEventListener("click", displayQuote);
 }

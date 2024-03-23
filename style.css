@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	color: #05386B;
 }
@@ -17,7 +16,7 @@ body{
 	background: #fff;
 	width: 700px;
 	position: absolute;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 40px;
@@ -59,7 +58,7 @@ blockquote{
 }
 
 button{
-	margin-top: 40%;
+	margin-top: 35%;
 	background: #05386B    ;
 	color: #5CDB95 ;
 	cursor: pointer;
@@ -80,7 +79,7 @@ button:hover {
 		width: 350px;
 	}
 	button {
-		margin-top: 130%;
+		margin-top: 125%;
 		font-style: 20px;
 		padding: 10px 30px;
 	}
