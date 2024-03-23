@@ -56,10 +56,10 @@ blockquote{
 #buttons{
 	display: block;
 	position: relative;
-	margin-top: 36%;
 }
 
 button{
+	margin-top: 40%;
 	background: #05386B    ;
 	color: #5CDB95 ;
 	cursor: pointer;
@@ -77,9 +77,10 @@ button:hover {
 		font-size: 25px;
 	}
 	.quote-box {
-		width: 400px;
+		width: 350px;
 	}
 	button {
+		margin-top: 130%;
 		font-style: 20px;
 		padding: 10px 30px;
 	}

@@ -1,40 +1,40 @@
 
 const quotes = [
   {
-    quote: "Be the change that you wish to see in the world.",
-    author: "Mahatma Gandhi"
+    quote: "Если делаешь доброе, то не поднимаешь ли лица?",
+    author: "Бытие 4:7"
   },
   {
-    quote: "Step left, step right - two steps",
-    author: "Jason Statham"
+    quote: "Будь тверд и мужествен, не страшись и не ужасайся; ибо с тобою Господь, Бог твой, везде, куда ни пойдешь.",
+    author: "Иисус Навин 1:9"
   },  
   {
-    quote: "Here is a time for everything, and a season for every activity under the heavens:",
-    author: "Ecclesiastes"
+    quote: "Блажен муж, который не ходит на совет нечестивых и не стоит на пути грешных, но в законе Господа воля его, и о законе Его размышляет он день и ночь!",
+    author: "Псалтирь 1:1-2"
   },
   {
-    quote: "Meaningless! Meaningless! Utterly meaningless! Everything is meaningless.",
-    author: "Ecclesiastes"
+    quote: "Может ли кто взять себе огонь в пазуху, чтобы не прогорело платье его",
+    author: "Притчи 6:27"
   },
   {
-    quote: "If you want to live a happy life, tie it to a goal, not to people or things.",
-    author: "Albert Einstein"
+    quote: "Не положу пред очами моими вещи непотребной.",
+    author: "Притчи 100:3"
   },
   {
-    quote: "The only way to do great work is to love what you do.",
-    author: "Steve Jobs"
+    quote: "Веселое сердце благотворно, как врачевство, а унылый дух сушит кости.",
+    author: "Притчи 17:22"
   },
   {
-    quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-    author: "Winston Churchill"
+    quote: "Пусть хвалит тебя другой, а не уста твои, — чужой, а не язык твой.",
+    author: "Притчи 27:2"
   },
   {
-    quote: "Believe you can and you're halfway there.",
-    author: "Theodore Roosevelt"
+    quote: "Приобретение мудрости гораздо лучше золота, и приобретение разума предпочтительнее отборного серебра.",
+    author: "Притчи 16:16"
   },
   {
-    quote: "All things are lawful, but not all things are profitable. All things are lawful, but not all things edify.",
-    author: "Paul"
+    quote: "Не хлебом одним будет жить человек, но всяким словом, исходящим из уст Божиих.",
+    author: "Матфея 4:4"
   }
 ];
 
