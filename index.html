@@ -9,42 +9,18 @@
   </head>
 
   <body>
-    <input type="button" onclick="notifSet()" value="Notification">
-	
-    <script>
-      function notifyMe () {
-        var notification = new Notification ("Все еще работаешь?", {
-          tag : "ache-mail",
-          body : "Пора сделать паузу и отдохнуть",
-          icon : "https://itproger.com/img/notify.png"
-        });
-      }
-      
-      function notifSet () {
-        if (Notification.permission === "granted")
-          setTimeout(notifyMe, 2000);
-        else if (Notification.permission !== "denied") {
-          Notification.requestPermission (function (permission) {
-            if (!('permission' in Notification))
-              Notification.permission = permission;
-            if (permission === "granted")
-              setTimeout(notifyMe, 2000);
-          });
-        }
-      }
-    </script>
     <div class="quote-box">
     	<h1>Стих дня</h1>
     	<hr>
     	<blockquote id = "insert">Loading...</blockquote>
     	<span id = "author">Loading...</span>
     </div>
-    <script src="script.js"></script>
     <script src="https://yastatic.net/share2/share.js"></script>
-	<div class="ya-share2" data-curtain data-shape="round" data-services="vkontakte,telegram,viber"></div>
-
+	  <div class="ya-share2" data-curtain data-shape="round" data-services="vkontakte,telegram,viber"></div>
+    
     <div id = "buttons">
-    	<button id = "change-quote">New Verse</button>
+      <button id = "change-quote">New Verse</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
